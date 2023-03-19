@@ -3,7 +3,7 @@ package org.example;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Calculator {
+public class Main {
     public static double factorial(double num) {
         double fact = 1;
         for(int i = 1; i <= num; i++)

@@ -1,4 +1,2 @@
-localhost ansible_user=sreenidhikr
-
 [ubuntu18]
-192.168.64.9 ansible_user=root
+192.168.64.9

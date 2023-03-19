@@ -2,7 +2,7 @@
 - name: Pull docker image of speminiproject
   hosts: all
   tasks:
-    - name: Pull junit devops image
+    - name: Pull speminiproject devops image
       docker_image:
         name: sreenidhikr/calculator
         source: pull

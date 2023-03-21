@@ -52,5 +52,17 @@ public class MainTest {
 
     }
 
+    @Test
+    public void logTruePositive(){
+        assertEquals("Finding natural log for True Positive", 0, Main.naturalLog(1), DELTA);
+
+    }
+
+    @Test
+    public void logFalsePositive(){
+        assertNotEquals("Finding natural log for False Positive", 60, Main.naturalLog(2.4), DELTA);
+        assertNotEquals("Finding natural log for False Positive", 4.7, Main.naturalLog(2.1), DELTA);
+    }
+
 }
 

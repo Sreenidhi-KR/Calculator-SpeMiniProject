@@ -6,4 +6,4 @@
       docker_image:
         name: sreenidhikr/calculator
         source: pull
-        force_pull: true
+        pull : yes

@@ -5,5 +5,5 @@
     - name: Pull speminiproject devops image
       docker_image:
         name: sreenidhikr/calculator
+        pull: true
         source: pull
-        pull : yes

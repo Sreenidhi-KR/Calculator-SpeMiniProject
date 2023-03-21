@@ -12,6 +12,16 @@ public class Main {
         }
         return  fact;
     }
+
+    public static double squareRoot(double number1) {
+        double result = Math.sqrt(number1);
+        return result;
+    }
+
+    public static double power(double number1, double number2) {
+        double result = Math.pow(number1,number2);
+        return result;
+    }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double number1, number2;
@@ -33,10 +43,23 @@ public class Main {
 
             switch (choice) {
                 case 1 -> {
-                    // Factorial
                     System.out.print("Enter a number : ");
                     number1 = scanner.nextDouble();
                     System.out.println("Factorial of " + number1 + " is : " + factorial(number1));
+                    System.out.println("\n");
+                }
+                case 2 -> {
+                    System.out.print("Enter a number : ");
+                    number1 = scanner.nextDouble();
+                    System.out.println("Square root of " + number1 + " is : " + squareRoot(number1));
+                    System.out.println("\n");
+                }
+                case 3 -> {
+                    System.out.print("Enter the first number : ");
+                    number1 = scanner.nextDouble();
+                    System.out.print("Enter the second number : ");
+                    number2 = scanner.nextDouble();
+                    System.out.println(number1+ " raised to power "+number2+" is : " + power(number1, number2));
                     System.out.println("\n");
                 }
                 default -> {

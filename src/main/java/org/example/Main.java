@@ -2,27 +2,37 @@ package org.example;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Main {
-    public static double factorial(double num) {
+
+    private static final Logger logger = LogManager.getLogger(Main.class);
+    public static double factorial(double number1) {
+
         double fact = 1;
-        for(int i = 1; i <= num; i++)
+        for(int i = 1; i <= number1; i++)
         {
             fact *= i;
         }
+        logger.info("[LOG] FACTORIAL OF " + number1 + " is "+ fact);
         return  fact;
     }
 
     public static double squareRoot(double number1) {
+        logger.info("[LOG] SQUARE ROOT OF " + number1 + " is " + Math.sqrt(number1)) ;
         return Math.sqrt(number1);
     }
 
     public static double power(double number1, double number2) {
+        logger.info("[LOG] " + number1 + " ^ " + number2 + " is " +  Math.pow(number1,number2)) ;
         return Math.pow(number1,number2);
     }
 
     public static double naturalLog(double number1) {
-        return number1 < 0 ? Double.NaN : Math.log(number1);
+        double result = number1 < 0 ? Double.NaN : Math.log(number1);
+        logger.info("[LOG] NATURAL LOG OF " + number1 + " is " + result) ;
+        return result;
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -40,6 +50,7 @@ public class Main {
             try {
                 choice = scanner.nextInt();
             } catch (InputMismatchException error) {
+                System.out.println("Invalid Input");
                 return;
             }
 

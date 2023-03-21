@@ -1,0 +1,5 @@
+2023-03-21 16:07:05.536 [main] INFO  org.example.Main - [LOG] FACTORIAL OF - 4.0
+2023-03-21 16:07:05.542 [main] INFO  org.example.Main -  IS - 24.0
+2023-03-21 16:07:56.677 [main] INFO  org.example.Main - [LOG] SQUARE ROOT OF - 4.0 is 2.0
+2023-03-21 16:08:03.297 [main] INFO  org.example.Main - [LOG] 2.0 ^ 2.04.0
+2023-03-21 16:08:56.858 [main] INFO  org.example.Main - [LOG] NATURAL LOG OF - 2.0 is 0.6931471805599453

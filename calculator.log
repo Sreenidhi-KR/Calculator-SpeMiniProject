@@ -1,8 +1,0 @@
-2023-03-21 16:07:05.536 [main] INFO  org.example.Main - [LOG] FACTORIAL OF - 4.0
-2023-03-21 16:07:05.542 [main] INFO  org.example.Main -  IS - 24.0
-2023-03-21 16:07:56.677 [main] INFO  org.example.Main - [LOG] SQUARE ROOT OF - 4.0 is 2.0
-2023-03-21 16:08:03.297 [main] INFO  org.example.Main - [LOG] 2.0 ^ 2.04.0
-2023-03-21 16:08:56.858 [main] INFO  org.example.Main - [LOG] NATURAL LOG OF - 2.0 is 0.6931471805599453
-2023-03-21 16:09:13.983 [main] INFO  org.example.Main - [LOG] FACTORIAL OF - 3.0 is 6.0
-2023-03-21 16:09:37.251 [main] INFO  org.example.Main - [LOG] SQUARE ROOT OF - 5.0 is 2.23606797749979
-2023-03-21 16:09:47.671 [main] INFO  org.example.Main - [LOG] NATURAL LOG OF - 7.0 is 1.9459101490553132

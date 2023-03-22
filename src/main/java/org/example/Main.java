@@ -15,23 +15,23 @@ public class Main {
         {
             fact *= i;
         }
-        logger.info("[LOG] FACTORIAL OF " + number1 + " is "+ fact);
+        logger.info("FACTORIAL OF " + number1 + " is "+ fact);
         return  fact;
     }
 
     public static double squareRoot(double number1) {
-        logger.info("[LOG] SQUARE ROOT OF " + number1 + " is " + Math.sqrt(number1)) ;
+        logger.info("SQUAREROOT OF " + number1 + " is " + Math.sqrt(number1)) ;
         return Math.sqrt(number1);
     }
 
     public static double power(double number1, double number2) {
-        logger.info("[LOG] " + number1 + " ^ " + number2 + " is " +  Math.pow(number1,number2)) ;
+        logger.info("POWER OF " + number1 + " & " + number2 + " is " +  Math.pow(number1,number2)) ;
         return Math.pow(number1,number2);
     }
 
     public static double naturalLog(double number1) {
         double result = number1 < 0 ? Double.NaN : Math.log(number1);
-        logger.info("[LOG] NATURAL LOG OF " + number1 + " is " + result) ;
+        logger.info("NATURALLOG OF " + number1 + " is " + result) ;
         return result;
     }
     public static void main(String[] args) {

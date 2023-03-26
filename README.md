@@ -1,1 +1,1 @@
-# SpeMiniProject Calculator DevOps Project
+# SpeMiniProject : Calculator using DevOps

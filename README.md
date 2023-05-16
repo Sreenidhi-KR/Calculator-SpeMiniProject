@@ -1,1 +1,2 @@
-# SpeMiniProject : Calculator using DevOps
+# SpeMiniProject : 
+A Calculator Java Application built using DevOps
